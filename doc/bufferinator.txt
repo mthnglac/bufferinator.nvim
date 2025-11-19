@@ -1,0 +1,47 @@
+*bufferinator.txt*      Epic buffer management for Neovim
+
+==============================================================================
+NAME
+    Bufferinator.nvim
+
+DESCRIPTION
+    Bufferinator.nvim is an epic, humorous buffer management plugin for Neovim.
+    It provides a floating menu to quickly close hidden, current, or all buffers.
+
+==============================================================================
+INSTALLATION
+
+    " With lazy.nvim
+        { "mthnglac/bufferinator.nvim", config = true }
+
+==============================================================================
+USAGE
+
+    :lua require("bufferinator").setup()
+
+    By default, press <C-q> to open the Bufferinator menu.
+
+    To customize the keymap:
+        :lua require("bufferinator").setup({ keymap = "<leader>bb" })
+
+==============================================================================
+MENU OPTIONS
+
+    1. Cancel the action
+    2. Close hidden buffers
+    3. Close current buffer
+    4. Close all buffers except current
+    5. Close all buffers (including current)
+
+==============================================================================
+API
+
+    require("bufferinator").setup({ keymap = "<C-q>" })
+
+==============================================================================
+LICENSE
+
+    MIT
+
+==============================================================================
+vim:tw=78:ts=8:ft=help:norl:

@@ -1,0 +1,29 @@
+# Lua bytecode
+*.luac
+
+# Neovim swap, backup, undo files
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.undo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Test output
+test_output/
+output/
+*.log
+
+# Node/npm (bazı kullanıcılar için)
+node_modules/
+package-lock.json
+npm-debug.log
+
+# Neovim package manager artifacts (optional)
+site/
+plugged/
+pack/
